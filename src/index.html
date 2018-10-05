@@ -6,27 +6,18 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <style>
-      .active {
-        background-color: red;
-      }
-    </style>
     <link rel="stylesheet" href="../node_modules/video.js/dist/video-js.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <video id="my-video" class="video-js" controls preload="auto"
-      width="640" height="264" poster="">
-      <source src="./SampleVideo_1280x720_1mb.mp4" type='video/mp4'>
-      <p class="vjs-no-js">
-        To view this video please enable JavaScript, and consider upgrading to a web browser that
-        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-      </p>
+    <video id="video1" class="video-js" controls preload="auto" width="640" height="264" poster="">
+      <source src="./SampleVideo_1280x720_2mb.mp4" type='video/mp4'>
     </video>
-    <div id="description">
+    <div id="description1" class="description" style="width: 640px; height: 200px; overflow-y: auto">
     </div>
     <script src="../node_modules/video.js/dist/video.js"></script>
     <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/moment/moment.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

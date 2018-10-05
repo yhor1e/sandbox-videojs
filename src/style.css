@@ -1,0 +1,29 @@
+<style>
+.description {
+  color: f0f0f0;
+  border: solid #f0f0f0 1px;
+}
+
+.description li {
+  list-style-type: none;
+  padding: 6px;
+
+  border: solid #f0f0f0 1px;
+  cursor: pointer;
+}
+
+.description ul {
+  padding: 0;
+  margin: 0;
+}
+
+.active {
+  background-color: #4fb9f5;
+  color: white;
+}
+
+.description li:hover {
+  background-color: #b9e4fd;
+}
+
+</style>
